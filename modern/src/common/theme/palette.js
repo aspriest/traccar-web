@@ -1,12 +1,12 @@
 import {
-  amber, grey, green, indigo, red, common,
+  amber, grey, green, red, common,
 } from '@mui/material/colors';
 
 export default (server) => {
   const colors = {
     white: common.white,
     background: grey[50],
-    primary: server?.attributes?.colorPrimary || indigo[900],
+    primary: '#0E2A44' /* server?.attributes?.colorPrimary || indigo[900] */,
     secondary: server?.attributes?.colorSecondary || green[800],
     positive: green[500],
     medium: amber[700],

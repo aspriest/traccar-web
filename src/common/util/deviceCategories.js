@@ -1,24 +1,14 @@
 export default [
   'default',
-  'animal',
-  'bicycle',
-  'boat',
-  'bus',
   'car',
+<<<<<<< HEAD:src/common/util/deviceCategories.js
   'camper',
   'crane',
   'helicopter',
+=======
+>>>>>>> bd9c7dff (Removed unused categories.):modern/src/common/util/deviceCategories.js
   'motorcycle',
-  'offroad',
-  'person',
   'pickup',
-  'plane',
-  'ship',
-  'tractor',
-  'train',
-  'tram',
-  'trolleybus',
   'truck',
   'van',
-  'scooter',
 ];

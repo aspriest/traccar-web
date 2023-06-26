@@ -6,7 +6,7 @@ import directionSvg from '../../resources/images/direction.svg';
 import backgroundSvg from '../../resources/images/background.svg';
 /* import animalSvg from '../../resources/images/icon/animal.svg'; */
 /* import bicycleSvg from '../../resources/images/icon/bicycle.svg'; */
-import boatSvg from '../../resources/images/icon/boat.svg';
+/* import boatSvg from '../../resources/images/icon/boat.svg'; */
 /* import busSvg from '../../resources/images/icon/bus.svg'; */
 import carSvg from '../../resources/images/icon/car.svg';
 <<<<<<< HEAD:src/map/core/preloadImages.js
@@ -57,7 +57,6 @@ import vanSvg from '../../resources/images/icon/van.svg';
 }; */
 
 export const mapIcons = {
-  boat: boatSvg,
   car: carSvg,
   default: defaultSvg,
   motorcycle: motorcycleSvg,

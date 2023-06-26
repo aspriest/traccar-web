@@ -4,30 +4,34 @@ import { loadImage, prepareIcon } from './mapUtil';
 
 import directionSvg from '../../resources/images/direction.svg';
 import backgroundSvg from '../../resources/images/background.svg';
-import animalSvg from '../../resources/images/icon/animal.svg';
-import bicycleSvg from '../../resources/images/icon/bicycle.svg';
+/* import animalSvg from '../../resources/images/icon/animal.svg'; */
+/* import bicycleSvg from '../../resources/images/icon/bicycle.svg'; */
 import boatSvg from '../../resources/images/icon/boat.svg';
-import busSvg from '../../resources/images/icon/bus.svg';
+/* import busSvg from '../../resources/images/icon/bus.svg'; */
 import carSvg from '../../resources/images/icon/car.svg';
+<<<<<<< HEAD:src/map/core/preloadImages.js
 import camperSvg from '../../resources/images/icon/camper.svg';
 import craneSvg from '../../resources/images/icon/crane.svg';
+=======
+/* import craneSvg from '../../resources/images/icon/crane.svg'; */
+>>>>>>> 4c45eb1b (Commeneted out unsued icons.):modern/src/map/core/preloadImages.js
 import defaultSvg from '../../resources/images/icon/default.svg';
-import helicopterSvg from '../../resources/images/icon/helicopter.svg';
+/* import helicopterSvg from '../../resources/images/icon/helicopter.svg'; */
 import motorcycleSvg from '../../resources/images/icon/motorcycle.svg';
-import offroadSvg from '../../resources/images/icon/offroad.svg';
-import personSvg from '../../resources/images/icon/person.svg';
+/* import offroadSvg from '../../resources/images/icon/offroad.svg'; */
+/* import personSvg from '../../resources/images/icon/person.svg'; */
 import pickupSvg from '../../resources/images/icon/pickup.svg';
-import planeSvg from '../../resources/images/icon/plane.svg';
-import scooterSvg from '../../resources/images/icon/scooter.svg';
+/* import planeSvg from '../../resources/images/icon/plane.svg'; */
+/* import scooterSvg from '../../resources/images/icon/scooter.svg';
 import shipSvg from '../../resources/images/icon/ship.svg';
 import tractorSvg from '../../resources/images/icon/tractor.svg';
 import trainSvg from '../../resources/images/icon/train.svg';
 import tramSvg from '../../resources/images/icon/tram.svg';
-import trolleybusSvg from '../../resources/images/icon/trolleybus.svg';
+import trolleybusSvg from '../../resources/images/icon/trolleybus.svg'; */
 import truckSvg from '../../resources/images/icon/truck.svg';
 import vanSvg from '../../resources/images/icon/van.svg';
 
-export const mapIcons = {
+/* export const mapIcons = {
   animal: animalSvg,
   bicycle: bicycleSvg,
   boat: boatSvg,
@@ -48,6 +52,16 @@ export const mapIcons = {
   train: trainSvg,
   tram: tramSvg,
   trolleybus: trolleybusSvg,
+  truck: truckSvg,
+  van: vanSvg,
+}; */
+
+export const mapIcons = {
+  boat: boatSvg,
+  car: carSvg,
+  default: defaultSvg,
+  motorcycle: motorcycleSvg,
+  pickup: pickupSvg,
   truck: truckSvg,
   van: vanSvg,
 };

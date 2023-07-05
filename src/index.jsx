@@ -36,7 +36,7 @@ root.render(
             </ServerProvider>
           </AppThemeProvider>
         </StyledEngineProvider>
-      </LocalizationProvider>
+      </LocalizationProvider>s
     </Provider>
   </ErrorBoundary>,
 );

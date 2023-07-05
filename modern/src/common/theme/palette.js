@@ -2,6 +2,11 @@ import {
   amber, grey, green, red, common,
 } from '@mui/material/colors';
 
+<<<<<<< HEAD
+=======
+// const validatedColor = (color) => (/^#([0-9A-Fa-f]{3}){1,2}$/.test(color) ? color : null);
+
+>>>>>>> d35f28e3 (fixed breaking change.)
 export default (server) => {
   const colors = {
     white: common.white,

@@ -101,5 +101,5 @@ export const findFonts = (map) => {
   if (anyFont) {
     return [anyFont];
   }
-  return ['Roboto Regular'];
+  return ['Montserrat Regular'];
 };

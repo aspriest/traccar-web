@@ -5,13 +5,13 @@ import {
 import SettingsIcon from '@mui/icons-material/Settings';
 import CreateIcon from '@mui/icons-material/Create';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import FolderIcon from '@mui/icons-material/Folder';
+// import FolderIcon from '@mui/icons-material/Folder';
 import PersonIcon from '@mui/icons-material/Person';
 import StorageIcon from '@mui/icons-material/Storage';
 import BuildIcon from '@mui/icons-material/Build';
 import PeopleIcon from '@mui/icons-material/People';
 // import TodayIcon from '@mui/icons-material/Today';
-import PublishIcon from '@mui/icons-material/Publish';
+// import PublishIcon from '@mui/icons-material/Publish';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import HelpIcon from '@mui/icons-material/Help';
 import CampaignIcon from '@mui/icons-material/Campaign';
@@ -79,7 +79,7 @@ const SettingsMenu = () => {
               icon={<CreateIcon />}
               selected={location.pathname.startsWith('/settings/geofence')}
             />
-            {!features.disableGroups && (
+            {/* {!features.disableGroups && (
               <MenuItem
                 title={t('settingsGroups')}
                 link="/settings/groups"
@@ -94,7 +94,7 @@ const SettingsMenu = () => {
                 icon={<PersonIcon />}
                 selected={location.pathname.startsWith('/settings/driver')}
               />
-            )}
+            )} */}
             {/* {!features.disableCalendars && (
               <MenuItem
                 title={t('sharedCalendars')}
@@ -119,6 +119,7 @@ const SettingsMenu = () => {
                 selected={location.pathname.startsWith('/settings/maintenance')}
               />
             )}
+<<<<<<< HEAD:src/settings/components/SettingsMenu.jsx
             {!features.disableSavedCommands && (
               <MenuItem
                 title={t('sharedSavedCommands')}
@@ -134,6 +135,14 @@ const SettingsMenu = () => {
                 icon={<HelpIcon />}
               />
             )}
+=======
+            {/* <MenuItem
+              title={t('sharedSavedCommands')}
+              link="/settings/commands"
+              icon={<PublishIcon />}
+              selected={location.pathname.startsWith('/settings/command')}
+            /> */}
+>>>>>>> c8d84084 (rm- calendars, groups, drivers, commands. + report):modern/src/settings/components/SettingsMenu.js
           </>
         )}
       </List>

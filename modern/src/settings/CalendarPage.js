@@ -13,7 +13,7 @@ import EditAttributesAccordion from './components/EditAttributesAccordion';
 import { useTranslation } from '../common/components/LocalizationProvider';
 import SettingsMenu from './components/SettingsMenu';
 import { prefixString } from '../common/util/stringUtils';
-import { calendarsActions } from '../store';
+// import { calendarsActions } from '../store';
 import { useCatch } from '../reactHelper';
 
 const formatCalendarTime = (time) => {

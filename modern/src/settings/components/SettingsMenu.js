@@ -10,7 +10,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import StorageIcon from '@mui/icons-material/Storage';
 import BuildIcon from '@mui/icons-material/Build';
 import PeopleIcon from '@mui/icons-material/People';
-import TodayIcon from '@mui/icons-material/Today';
+// import TodayIcon from '@mui/icons-material/Today';
 import PublishIcon from '@mui/icons-material/Publish';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import { Link, useLocation } from 'react-router-dom';
@@ -92,14 +92,14 @@ const SettingsMenu = () => {
                 selected={location.pathname.startsWith('/settings/driver')}
               />
             )}
-            {!features.disableCalendars && (
+            {/* {!features.disableCalendars && (
               <MenuItem
                 title={t('sharedCalendars')}
                 link="/settings/calendars"
                 icon={<TodayIcon />}
                 selected={location.pathname.startsWith('/settings/calendar')}
               />
-            )}
+            )} */}
             {!features.disableComputedAttributes && (
               <MenuItem
                 title={t('sharedComputedAttributes')}

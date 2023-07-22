@@ -5,7 +5,7 @@ import {
   Paper, BottomNavigation, BottomNavigationAction, Menu, MenuItem, Typography, Badge,
 } from '@mui/material';
 
-import DescriptionIcon from '@mui/icons-material/Description';
+// import DescriptionIcon from '@mui/icons-material/Description';
 import SettingsIcon from '@mui/icons-material/Settings';
 import MapIcon from '@mui/icons-material/Map';
 import PersonIcon from '@mui/icons-material/Person';
@@ -23,7 +23,7 @@ const BottomMenu = () => {
   const t = useTranslation();
 
   const readonly = useRestriction('readonly');
-  const disableReports = useRestriction('disableReports');
+  // const disableReports = useRestriction('disableReports');
   const user = useSelector((state) => state.session.user);
   const socket = useSelector((state) => state.session.socket);
 
@@ -110,9 +110,9 @@ const BottomMenu = () => {
           )}
           value="map"
         />
-        {!disableReports && (
+        {/* {!disableReports && (
           <BottomNavigationAction label={t('reportTitle')} icon={<DescriptionIcon />} value="reports" />
-        )}
+        )} */}
         <BottomNavigationAction label={t('settingsTitle')} icon={<SettingsIcon />} value="settings" />
         {readonly ? (
           <BottomNavigationAction label={t('loginLogout')} icon={<ExitToAppIcon />} value="logout" />

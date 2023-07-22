@@ -1,12 +1,19 @@
 import React, { useEffect, useState } from 'react';
+<<<<<<< HEAD:src/login/LoginPage.jsx
 import dayjs from 'dayjs';
 import {
   useMediaQuery, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, Tooltip, LinearProgress, Box,
+=======
+import moment from 'moment';
+/* Removed Tooltip */
+import {
+  useMediaQuery, InputLabel, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, LinearProgress,
+>>>>>>> ec60591d (removed lock.):modern/src/login/LoginPage.js
 } from '@mui/material';
 import ReactCountryFlag from 'react-country-flag';
 import makeStyles from '@mui/styles/makeStyles';
 import CloseIcon from '@mui/icons-material/Close';
-import LockOpenIcon from '@mui/icons-material/LockOpen';
+// import LockOpenIcon from '@mui/icons-material/LockOpen';
 import { useTheme } from '@mui/material/styles';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -65,7 +72,7 @@ const LoginPage = () => {
 
   const registrationEnabled = useSelector((state) => state.session.server.registration);
   const languageEnabled = useSelector((state) => !state.session.server.attributes['ui.disableLoginLanguage']);
-  const changeEnabled = useSelector((state) => !state.session.server.attributes.disableChange);
+  // const changeEnabled = useSelector((state) => !state.session.server.attributes.disableChange);
   const emailEnabled = useSelector((state) => state.session.server.emailEnabled);
   const openIdEnabled = useSelector((state) => state.session.server.openIdEnabled);
   const openIdForced = useSelector((state) => state.session.server.openIdEnabled && state.session.server.openIdForce);
@@ -148,7 +155,7 @@ const LoginPage = () => {
 
   return (
     <LoginLayout>
-      <div className={classes.options}>
+      {/* <div className={classes.options}>
         {nativeEnvironment && changeEnabled && (
           <Tooltip title={t('settingsServer')}>
             <IconButton onClick={() => navigate('/change-server')}>
@@ -156,6 +163,7 @@ const LoginPage = () => {
             </IconButton>
           </Tooltip>
         )}
+<<<<<<< HEAD:src/login/LoginPage.jsx
         {languageEnabled && (
           <FormControl>
             <Select value={language} onChange={(e) => setLanguage(e.target.value)}>
@@ -171,6 +179,9 @@ const LoginPage = () => {
           </FormControl>
         )}
       </div>
+=======
+      </div> */}
+>>>>>>> ec60591d (removed lock.):modern/src/login/LoginPage.js
       <div className={classes.container}>
         {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.primary.main} />}
         <TextField

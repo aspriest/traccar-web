@@ -25,8 +25,8 @@ import SummaryReportPage from './reports/SummaryReportPage';
 import ChartReportPage from './reports/ChartReportPage';
 import DriversPage from './settings/DriversPage';
 import DriverPage from './settings/DriverPage';
-// import CalendarsPage from './settings/CalendarsPage';
-// import CalendarPage from './settings/CalendarPage';
+import CalendarsPage from './settings/CalendarsPage';
+import CalendarPage from './settings/CalendarPage';
 import ComputedAttributesPage from './settings/ComputedAttributesPage';
 import ComputedAttributePage from './settings/ComputedAttributePage';
 import MaintenancesPage from './settings/MaintenancesPage';
@@ -115,13 +115,17 @@ const Navigation = () => {
         <Route path="settings">
           <Route path="accumulators/:deviceId" element={<AccumulatorsPage />} />
 <<<<<<< HEAD:src/Navigation.jsx
+<<<<<<< HEAD:src/Navigation.jsx
           <Route path="announcement" element={<AnnouncementPage />} />
           <Route path="calendars" element={<CalendarsPage />} />
 =======
           {/* <Route path="calendars" element={<CalendarsPage />} />
 >>>>>>> f70a9f68 (Removed Calendars. removed Reports.):modern/src/Navigation.js
+=======
+          <Route path="calendars" element={<CalendarsPage />} />
+>>>>>>> 2be3d72b (Added calendars, drivers, commands):modern/src/Navigation.js
           <Route path="calendar/:id" element={<CalendarPage />} />
-          <Route path="calendar" element={<CalendarPage />} /> */}
+          <Route path="calendar" element={<CalendarPage />} />
           <Route path="commands" element={<CommandsPage />} />
           <Route path="command/:id" element={<CommandPage />} />
           <Route path="command" element={<CommandPage />} />

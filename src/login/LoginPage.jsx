@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 <<<<<<< HEAD:src/login/LoginPage.jsx
+<<<<<<< HEAD:src/login/LoginPage.jsx
 import dayjs from 'dayjs';
 import {
   useMediaQuery, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, Tooltip, LinearProgress, Box,
@@ -9,6 +10,12 @@ import moment from 'moment';
 import {
   useMediaQuery, InputLabel, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, LinearProgress,
 >>>>>>> ec60591d (removed lock.):modern/src/login/LoginPage.js
+=======
+import moment from 'moment';
+/* Removed Tooltip */
+import {
+  useMediaQuery, InputLabel, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, LinearProgress,
+>>>>>>> 2be3d72b9dcb7204a23ebfb6afee99ef90a22400:modern/src/login/LoginPage.js
 } from '@mui/material';
 import ReactCountryFlag from 'react-country-flag';
 import makeStyles from '@mui/styles/makeStyles';
@@ -164,6 +171,7 @@ const LoginPage = () => {
           </Tooltip>
         )}
 <<<<<<< HEAD:src/login/LoginPage.jsx
+<<<<<<< HEAD:src/login/LoginPage.jsx
         {languageEnabled && (
           <FormControl>
             <Select value={language} onChange={(e) => setLanguage(e.target.value)}>
@@ -182,6 +190,9 @@ const LoginPage = () => {
 =======
       </div> */}
 >>>>>>> ec60591d (removed lock.):modern/src/login/LoginPage.js
+=======
+      </div> */}
+>>>>>>> 2be3d72b9dcb7204a23ebfb6afee99ef90a22400:modern/src/login/LoginPage.js
       <div className={classes.container}>
         {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.primary.main} />}
         <TextField

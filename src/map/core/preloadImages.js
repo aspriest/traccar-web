@@ -7,6 +7,7 @@ import backgroundSvg from '../../resources/images/background.svg';
 import carSvg from '../../resources/images/icon/car.svg';
 <<<<<<< HEAD:src/map/core/preloadImages.js
 <<<<<<< HEAD:src/map/core/preloadImages.js
+<<<<<<< HEAD:src/map/core/preloadImages.js
 import camperSvg from '../../resources/images/icon/camper.svg';
 import craneSvg from '../../resources/images/icon/crane.svg';
 =======
@@ -14,11 +15,14 @@ import craneSvg from '../../resources/images/icon/crane.svg';
 >>>>>>> 4c45eb1b (Commeneted out unsued icons.):modern/src/map/core/preloadImages.js
 =======
 >>>>>>> 19053d5f (Have added Icons, and Montserat. Well done.):modern/src/map/core/preloadImages.js
+=======
+>>>>>>> 2be3d72b9dcb7204a23ebfb6afee99ef90a22400:modern/src/map/core/preloadImages.js
 import defaultSvg from '../../resources/images/icon/default.svg';
 import pickupSvg from '../../resources/images/icon/pickup.svg';
 import truckSvg from '../../resources/images/icon/truck.svg';
 import vanSvg from '../../resources/images/icon/van.svg';
 
+<<<<<<< HEAD:src/map/core/preloadImages.js
 <<<<<<< HEAD:src/map/core/preloadImages.js
 /* export const mapIcons = {
   animal: animalSvg,
@@ -28,19 +32,12 @@ import vanSvg from '../../resources/images/icon/van.svg';
   car: carSvg,
   camper: camperSvg,
   crane: craneSvg,
+=======
+export const mapIcons = {
+  car: carSvg,
+>>>>>>> 2be3d72b9dcb7204a23ebfb6afee99ef90a22400:modern/src/map/core/preloadImages.js
   default: defaultSvg,
-  helicopter: helicopterSvg,
-  motorcycle: motorcycleSvg,
-  offroad: offroadSvg,
-  person: personSvg,
   pickup: pickupSvg,
-  plane: planeSvg,
-  scooter: scooterSvg,
-  ship: shipSvg,
-  tractor: tractorSvg,
-  train: trainSvg,
-  tram: tramSvg,
-  trolleybus: trolleybusSvg,
   truck: truckSvg,
   van: vanSvg,
 }; */

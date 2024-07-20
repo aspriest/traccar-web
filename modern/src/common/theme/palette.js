@@ -3,7 +3,10 @@ import {
 } from '@mui/material/colors';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2be3d72b9dcb7204a23ebfb6afee99ef90a22400
 // const validatedColor = (color) => (/^#([0-9A-Fa-f]{3}){1,2}$/.test(color) ? color : null);
 
 >>>>>>> d35f28e3 (fixed breaking change.)

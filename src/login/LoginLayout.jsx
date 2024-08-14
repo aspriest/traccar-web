@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    background: theme.palette.primary.main,
+    background: theme.palette.brandDarkBlue.main,
     paddingBottom: theme.spacing(5),
     width: theme.dimensions.sidebarWidth,
     [theme.breakpoints.down('lg')]: {
@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     display: 'flex',
+    background: "#bebebe",
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
@@ -48,7 +49,7 @@ const LoginLayout = ({ children }) => {
   return (
     <main className={classes.root}>
       <div className={classes.sidebar}>
-        {!useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.secondary.contrastText} />}
+        {!useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage/>}
       </div>
       <Paper className={classes.paper}>
         <form className={classes.form}>

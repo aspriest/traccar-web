@@ -5,7 +5,7 @@ const validatedColor = (color) => (/^#([0-9A-Fa-f]{3}){1,2}$/.test(color) ? colo
 export default (server, darkMode) => ({
   mode: darkMode ? 'dark' : 'light',
   background: {
-    default: darkMode ? grey[900] : grey[50],
+    default: darkMode ? "#C5C6C7" : "#C5C6C7",
   },
   primary: {
     main: validatedColor(server?.attributes?.colorPrimary) || (darkMode ? indigo[200] : indigo[900]),
@@ -19,4 +19,16 @@ export default (server, darkMode) => ({
   geometry: {
     main: '#3bb2d0',
   },
+  brandDarkBlue: {
+    main: "#0E2A44"
+  },
+  brandLightBlue: {
+    main: "#37B5FF"
+  },
+  brandYellow: {
+    main: "#FFDE59"
+  },
+  brandRed: {
+    main: "#FF5757"
+  }
 });

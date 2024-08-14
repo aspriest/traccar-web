@@ -80,6 +80,7 @@ const MainToolbar = ({
         )}
         size="small"
         fullWidth
+        style={{ backgroundColor: '#ffffff' }}
       />
       <Popover
         open={!!devicesAnchorEl && !devicesOpen}

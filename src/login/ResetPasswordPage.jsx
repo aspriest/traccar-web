@@ -66,10 +66,10 @@ const ResetPasswordPage = () => {
     <LoginLayout>
       <div className={classes.container}>
         <div className={classes.header}>
-          <IconButton color="primary" onClick={() => navigate('/login')}>
+          <IconButton color="#0E2A44" onClick={() => navigate('/login')}>
             <ArrowBackIcon />
           </IconButton>
-          <Typography className={classes.title} color="primary">
+          <Typography className={classes.title} color="#0E2A44">
             {t('loginReset')}
           </Typography>
         </div>
@@ -96,7 +96,7 @@ const ResetPasswordPage = () => {
         )}
         <Button
           variant="contained"
-          color="secondary"
+          color="brandLightBlue"
           type="submit"
           onClick={handleSubmit}
           disabled={!/(.+)@(.+)\.(.{2,})/.test(email) && !password}

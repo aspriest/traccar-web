@@ -172,8 +172,11 @@ const LoginPage = () => {
         )}
       </div>
       <div className={classes.container}>
-        {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.primary.main} />}
+        {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage/>}
         <TextField
+          style = {{
+            backgroundColor: 'white',
+          }}
           required
           error={failed}
           label={t('userEmail')}
@@ -210,7 +213,7 @@ const LoginPage = () => {
           onClick={handlePasswordLogin}
           type="submit"
           variant="contained"
-          color="secondary"
+          color="brandLightBlue"
           disabled={!email || !password || (codeEnabled && !code)}
         >
           {t('loginLogin')}
@@ -219,7 +222,7 @@ const LoginPage = () => {
           <Button
             onClick={() => handleOpenIdLogin()}
             variant="contained"
-            color="secondary"
+            color="brandLightBlue"
           >
             {t('loginOpenId')}
           </Button>
@@ -231,6 +234,7 @@ const LoginPage = () => {
               className={classes.link}
               underline="none"
               variant="caption"
+              color="brandDarkBlue"
             >
               {t('loginRegister')}
             </Link>
@@ -241,6 +245,7 @@ const LoginPage = () => {
               className={classes.link}
               underline="none"
               variant="caption"
+              color="brandDarkBlue"
             >
               {t('loginReset')}
             </Link>

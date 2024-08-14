@@ -75,11 +75,11 @@ const RegisterPage = () => {
       <div className={classes.container}>
         <div className={classes.header}>
           {!server.newServer && (
-            <IconButton color="primary" onClick={() => navigate('/login')}>
+            <IconButton color="brandDarkBlue" onClick={() => navigate('/login')}>
               <ArrowBackIcon />
             </IconButton>
           )}
-          <Typography className={classes.title} color="primary">
+          <Typography className={classes.title} color="brandDarkBlue">
             {t('loginRegister')}
           </Typography>
         </div>
@@ -123,7 +123,7 @@ const RegisterPage = () => {
         )}
         <Button
           variant="contained"
-          color="secondary"
+          color="brandLightBlue"
           onClick={handleSubmit}
           type="submit"
           disabled={!name || !password || !(server.newServer || /(.+)@(.+)\.(.{2,})/.test(email))}

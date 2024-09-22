@@ -32,10 +32,6 @@ const draw = new MapboxDraw({
     filter: ['all'],
     layout: {
       'text-field': '{user_name}',
-<<<<<<< HEAD:modern/src/map/draw/MapGeofenceEdit.js
-      'text-font': ['Montserrat Regular'],
-=======
->>>>>>> 2154ff10c729d6f1320798aaf0c2f78d603481f6:src/map/draw/MapGeofenceEdit.js
       'text-size': 12,
     },
     paint: {

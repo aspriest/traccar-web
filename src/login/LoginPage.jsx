@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from 'react';
-<<<<<<< HEAD:modern/src/login/LoginPage.js
-import moment from 'moment';
-/* Removed Tooltip */
-import {
-  useMediaQuery, InputLabel, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, LinearProgress,
-=======
 import dayjs from 'dayjs';
 import {
   useMediaQuery, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, Tooltip, Box,
->>>>>>> 2154ff10c729d6f1320798aaf0c2f78d603481f6:src/login/LoginPage.jsx
 } from '@mui/material';
 import ReactCountryFlag from 'react-country-flag';
 import makeStyles from '@mui/styles/makeStyles';
@@ -164,25 +157,7 @@ const LoginPage = () => {
             </IconButton>
           </Tooltip>
         )}
-<<<<<<< HEAD:modern/src/login/LoginPage.js
       </div> */}
-=======
-        {languageEnabled && (
-          <FormControl>
-            <Select value={language} onChange={(e) => setLanguage(e.target.value)}>
-              {languageList.map((it) => (
-                <MenuItem key={it.code} value={it.code}>
-                  <Box component="span" sx={{ mr: 1 }}>
-                    <ReactCountryFlag countryCode={it.country} svg />
-                  </Box>
-                  {it.name}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-        )}
-      </div>
->>>>>>> 2154ff10c729d6f1320798aaf0c2f78d603481f6:src/login/LoginPage.jsx
       <div className={classes.container}>
         {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.primary.main} />}
         <TextField

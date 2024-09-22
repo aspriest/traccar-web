@@ -1,10 +1,3 @@
-<<<<<<< HEAD:modern/src/index.js
-import '@fontsource/montserrat/300.css';
-import '@fontsource/montserrat/400.css';
-import '@fontsource/montserrat/500.css';
-import '@fontsource/montserrat/700.css';
-=======
->>>>>>> 2154ff10c729d6f1320798aaf0c2f78d603481f6:src/index.jsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

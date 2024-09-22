@@ -7,13 +7,8 @@ import Logo from '../resources/images/logo.svg?react';
 const useStyles = makeStyles((theme) => ({
   image: {
     alignSelf: 'center',
-<<<<<<< HEAD:modern/src/login/LogoImage.js
-    maxWidth: '400px',
-    maxHeight: '400px',
-=======
     maxWidth: '720px',
     maxHeight: '480px',
->>>>>>> upstream-master-latest:src/login/LogoImage.jsx
     width: 'auto',
     height: 'auto',
     margin: theme.spacing(2),

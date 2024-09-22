@@ -5,11 +5,8 @@ import { loadImage, prepareIcon } from './mapUtil';
 import directionSvg from '../../resources/images/direction.svg';
 import backgroundSvg from '../../resources/images/background.svg';
 import carSvg from '../../resources/images/icon/car.svg';
-<<<<<<< HEAD:modern/src/map/core/preloadImages.js
-=======
 import camperSvg from '../../resources/images/icon/camper.svg';
 import craneSvg from '../../resources/images/icon/crane.svg';
->>>>>>> upstream-master-latest:src/map/core/preloadImages.js
 import defaultSvg from '../../resources/images/icon/default.svg';
 import pickupSvg from '../../resources/images/icon/pickup.svg';
 import truckSvg from '../../resources/images/icon/truck.svg';
@@ -17,11 +14,8 @@ import vanSvg from '../../resources/images/icon/van.svg';
 
 export const mapIcons = {
   car: carSvg,
-<<<<<<< HEAD:modern/src/map/core/preloadImages.js
-=======
   camper: camperSvg,
   crane: craneSvg,
->>>>>>> upstream-master-latest:src/map/core/preloadImages.js
   default: defaultSvg,
   pickup: pickupSvg,
   truck: truckSvg,

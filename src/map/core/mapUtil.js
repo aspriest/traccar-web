@@ -85,24 +85,3 @@ export const geofenceToFeature = (theme, item) => {
 };
 
 export const geometryToArea = (geometry) => stringify(reverseCoordinates(geometry));
-<<<<<<< HEAD:modern/src/map/core/mapUtil.js
-
-export const findFonts = (map) => {
-  const fontSet = new Set();
-  const { layers } = map.getStyle();
-  layers?.forEach?.((layer) => {
-    layer.layout?.['text-font']?.forEach?.(fontSet.add, fontSet);
-  });
-  const availableFonts = [...fontSet];
-  const regularFont = availableFonts.find((it) => it.includes('Regular'));
-  if (regularFont) {
-    return [regularFont];
-  }
-  const anyFont = availableFonts.find(Boolean);
-  if (anyFont) {
-    return [anyFont];
-  }
-  return ['Montserrat Regular'];
-};
-=======
->>>>>>> upstream-master-latest:src/map/core/mapUtil.js

@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from 'react';
-<<<<<<< HEAD:modern/src/login/LoginPage.js
-import moment from 'moment';
-/* Removed Tooltip */
-import {
-  useMediaQuery, InputLabel, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, LinearProgress,
-=======
 import dayjs from 'dayjs';
 import {
   useMediaQuery, Select, MenuItem, FormControl, Button, TextField, Link, Snackbar, IconButton, Tooltip, Box,
->>>>>>> upstream-master-latest:src/login/LoginPage.jsx
 } from '@mui/material';
 import ReactCountryFlag from 'react-country-flag';
 import makeStyles from '@mui/styles/makeStyles';
@@ -156,7 +149,7 @@ const LoginPage = () => {
 
   return (
     <LoginLayout>
-      {/* <div className={classes.options}>
+      <div className={classes.options}>
         {nativeEnvironment && changeEnabled && (
           <Tooltip title={t('settingsServer')}>
             <IconButton onClick={() => navigate('/change-server')}>
@@ -164,9 +157,6 @@ const LoginPage = () => {
             </IconButton>
           </Tooltip>
         )}
-<<<<<<< HEAD:modern/src/login/LoginPage.js
-      </div> */}
-=======
         {languageEnabled && (
           <FormControl>
             <Select value={language} onChange={(e) => setLanguage(e.target.value)}>
@@ -182,7 +172,6 @@ const LoginPage = () => {
           </FormControl>
         )}
       </div>
->>>>>>> upstream-master-latest:src/login/LoginPage.jsx
       <div className={classes.container}>
         {useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.primary.main} />}
         <TextField
